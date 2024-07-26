@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Park My Car</string>
+
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="aboutDetails">
+        BK Vision - BK Galaxy Robotics - IOT Challenge 2024
+    </string>
+
+    <string name="alert_title">Exit ?</string>
+    <string name="alert_message">Are you sure you want to turn off this app ?</string>
+
+    <string name="reservationDetails">Go to your reservation details to see your payment details.</string>
+    <string name="pass_warn">Password is too short\nPassword must contain minimum 8 characters</string>
+
+</resources>

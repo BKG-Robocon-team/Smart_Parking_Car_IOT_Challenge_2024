@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "504174416670",
+    "project_id": "car-parking-bk-vision",
+    "storage_bucket": "car-parking-bk-vision.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504174416670:android:f123e79de5c5229596ef0f",
+        "android_client_info": {
+          "package_name": "com.find.parkinglot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504174416670-tvaf9oue2raiikh2o2vt8cf3lukocsju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb3VAznN4-XzShL8IXriLBPADq4hDGRXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504174416670-tvaf9oue2raiikh2o2vt8cf3lukocsju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
