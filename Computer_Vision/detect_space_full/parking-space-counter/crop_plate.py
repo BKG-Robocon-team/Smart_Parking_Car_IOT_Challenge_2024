@@ -2,9 +2,9 @@ import os
 import cv2
 import matplotlib.pyplot as plt
 
-output_dir = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/data'
-mask_path = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/Mask_final.jpg'
-original_image_dir = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/data/original_images'
+output_dir = 'image_classification_scikit_learn/data/'
+mask_path = 'parking-space-counter/Mask_final.jpg'
+original_image_dir = 'image_classification_scikit_learn/data/original_images'
 
 mask = cv2.imread(mask_path, 0)
 

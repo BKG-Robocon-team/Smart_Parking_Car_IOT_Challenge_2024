@@ -7,16 +7,16 @@ from simple_CNN_util import get_parking_spots_bboxes, empty_or_not
 def calc_diff(im1, im2):
     return np.abs(np.mean(im1) - np.mean(im2))
 
-mask_path = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/Mask_final.jpg'
-# video_path = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/WIN_20240726_15_48_06_Pro.mp4'
+mask_path = 'parking-space-counter/Mask_final.jpg'
+video_path = 'parking-space-counter\WIN_20240726_19_12_57_Pro.mp4'
 
 mask = cv2.imread(mask_path, 0)
 mask_height, mask_width = mask.shape[:2]
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(video_path)
 
-if not cap.isOpened():
-    print("Error: Could not open webcam.")
+# if not cap.isOpened():
+#     print("Error: Could not open webcam.")
 
 connected_components = cv2.connectedComponentsWithStats(mask, 4, cv2.CV_32S)
 

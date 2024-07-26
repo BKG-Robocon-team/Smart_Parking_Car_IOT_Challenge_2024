@@ -46,7 +46,7 @@ transform = transforms.Compose([
 ])
 
 # Prepare dataset
-input_dir = 'C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/data'
+input_dir = 'image_classification_scikit_learn/data'
 dataset = ImageDataset(input_dir, transform=transform)
 
 # Train/test split

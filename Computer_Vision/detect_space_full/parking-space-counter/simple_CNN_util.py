@@ -28,7 +28,7 @@ class SimpleCNN(nn.Module):
         return x
 
 # Tải mô hình
-MODEL_PATH = "C:/Users/DUYEN/OneDrive/Documents/GitHub/Smart_parking_car_computer_vision/Detect_vitri/parking-space-counter/model.pth"
+MODEL_PATH = "parking-space-counter/model.pth"
 model = SimpleCNN()
 model.load_state_dict(torch.load(MODEL_PATH))
 model.eval()  # Đặt mô hình ở chế độ đánh giá
