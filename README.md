@@ -132,9 +132,6 @@ chmod +x run_scripts.sh
 
 We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information on how to contribute to this project.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Acknowledgments
 
